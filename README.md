@@ -2,7 +2,8 @@
 
 A bash script that will push a file into a gcs bucket using a service account.
 
-## Directions:
+
+## Docker
 1. Pull the image from dockerhub
 ```
 docker pull brandonlv/push-file-to-gcs
@@ -10,9 +11,9 @@ docker pull brandonlv/push-file-to-gcs
 
 2. Set the required environment variables. 
 ```
-export $PATH_TO_CREDS_FILE=<absolute path to SERVICE_ACCOUNT.json file>
-export $PATH_TO_DESIRED_FILE=<absolute path to desired file to push>
-export $GCS_BUCKET_NAME=<google cloud storage bucket name>
+export PATH_TO_CREDS_FILE=<absolute path to SERVICE_ACCOUNT.json file>
+export PATH_TO_DESIRED_FILE=<absolute path to desired file to push>
+export GCS_BUCKET_NAME=<google cloud storage bucket name>
 ```
 
 3. Run the image
