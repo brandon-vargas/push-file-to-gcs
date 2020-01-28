@@ -1,6 +1,6 @@
 # Tool to push a file to Google Cloud Storage
 
-A bash script that will push a file into a gcs bucket using a service account.
+A bash script that will push a file into a gcs bucket using a **SERVICE ACCOUNT**
 
 
 ## Docker
